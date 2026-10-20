@@ -1,4 +1,4 @@
-# Team charter · <HEHE> (v1.0, 2026-__-__)
+# Team charter · <HEHE> (v1.0, 2026-10-20)
 
 ## Members and roles
 | Member          | GitHub                     | Role (Sprint 1) | Shared hat         |
@@ -36,4 +36,4 @@ The Product Owner stays the same all semester.
 Sov Kenkimseng 14/10/2026
 Mony Viseth setha 14/10/2026
 Sinath Naihouy 14/10/2026
-Phou Sekang  20/10/2026
+Phou Sekang 20/10/2026
