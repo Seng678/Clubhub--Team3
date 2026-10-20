@@ -2,7 +2,7 @@
 
 ## Members and roles
 | Member          | GitHub                     | Role (Sprint 1) | Shared hat         |
-|--------|--------|----------------------------|------------|
+|-----------------|----------------------------|-----------------|--------------------|
 |Sinath Naihouy   | @naihouysinath-gif         | Product Owner   | Busseniess analyst |
 |Mony Viseth setha| @visethsethamony-sudo      | Scrum Master    | DevOps engineer    |
 |Sov Kenkimseng   | @Seng678                   | Developer       |  Tester            |
@@ -36,4 +36,4 @@ The Product Owner stays the same all semester.
 Sov Kenkimseng 14/10/2026
 Mony Viseth setha 14/10/2026
 Sinath Naihouy 14/10/2026
-Phou Sekang 20/10/2026
+Phou Sekang  20/10/2026
