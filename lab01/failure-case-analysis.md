@@ -26,3 +26,17 @@ D --> E["Poor situational awareness anddelayed corrective action"]
 E --> F["Additional transmission linesoverload and trip"]
 F --> G["Cascading failures spreadacross interconnected powergrids"]
 G --> H["Impact: Blackout affectingapproximately 50 millionpeople"]
+
+## 4. Root causes
+| # | Root cause | Type | Essential difficulty | Why |
+|---|------------|------|----------------------|-----|
+| R1 | Unhandled race condition in GE's XA/21 alarm server caused silent freeze without failing over | technical | complexity | Concurrent telemetry updates stalled the alarm queue, creating hidden state complexity that bypassed fallback systems without throwing an error. |
+| R2 | Inadequate real-time state estimation and lack of automated failover monitoring in the control room | process | invisibility | Operators lacked visibility into the internal health of the alarm application, concealing the fact that incoming critical warnings were stalled. |
+| R3 | Inadequate tree-trimming and vegetation management policy along key high-voltage transmission corridors | process | changeability | Physical power line clearance practices failed to adapt dynamically to seasonal summer thermal expansion and increased line sag under heavy loads. |
+
+## 5. Practices that would have prevented or limited it
+| Root cause | Practice | Chapter |
+|------------|----------|---------|
+| R1 | Defensive programming, concurrency controls, and robust exception safety boundaries | Chapter 05 |
+| R2 | Automated pre-release validation, system health monitoring, and canary health checks | Chapter 09 |
+| R3 | Rigorous operational procedures, safety compliance auditing, and continuous risk management | Chapter 08 |
