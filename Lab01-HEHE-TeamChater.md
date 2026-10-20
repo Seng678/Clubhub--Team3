@@ -6,7 +6,7 @@
 |Sinath Naihouy   | @naihouysinath-gif         | Product Owner   | Busseniess analyst |
 |Mony Viseth setha| @visethsethamony-sudo      | Scrum Master    | DevOps engineer    |
 |Sov Kenkimseng   | @Seng678                   | Developer       |  Tester            |
-|Phou Sekang      | @                          | Developer       |  Tester            |
+|Phou Sekang      | @SekangPhou13              | Developer       |  UX designer       |
 
 Scrum Master rotation: Sprint 1 = Mony Visethsetha.
 The Product Owner stays the same all semester.
@@ -36,3 +36,4 @@ The Product Owner stays the same all semester.
 Sov Kenkimseng 14/10/2026
 Mony Viseth setha 14/10/2026
 Sinath Naihouy 14/10/2026
+Phou Sekang 20/10/2026
