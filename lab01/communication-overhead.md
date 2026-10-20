@@ -42,6 +42,6 @@ Adding a 6th member in week 11 increases model (b) paths to 12 ($5 \times 4 / 2 
 ## Reflection: the essential difficulty we expect first
 Our team expects to hit **complexity** first in ITC Club Hub [cite: [Lab-01 · Software Development Challenges](https://gicitc.com/courses/introduction-to-software-engineering/01-SoftwareDevelopmentChallenges/Lab-01.html?continue#challenge-communication-overhead)]. For example, managing overlapping business rules between student registrations, capacities, and cancellation deadlines will quickly tangle our code logic. Over the next four weeks, we will counter this by strictly separating our domain logic into clean C++ classes and enforcing thorough peer code reviews on every pull request.
 -  (signed) Naihouy, 2026-10-20
--  Setha, 2026-10-20
+-  (signed)Setha, 2026-10-20
 -  (signed) kimseng, 2026-10-20
 -  Sekang, 2026-10-20
