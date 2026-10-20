@@ -40,3 +40,19 @@ G --> H["Impact: Blackout affectingapproximately 50 millionpeople"]
 | R1 | Defensive programming, concurrency controls, and robust exception safety boundaries | Chapter 05 |
 | R2 | Automated pre-release validation, system health monitoring, and canary health checks | Chapter 09 |
 | R3 | Rigorous operational procedures, safety compliance auditing, and continuous risk management | Chapter 08 |
+
+## 6. Lessons for ITC Club Hub
+1. **A background job must never fail silently.** The blackout alarm
+   software stopped without warning, so operators thought all was fine.
+   Our reminder job will print "Reminders: N sent, M failed" on every run,
+   and the CLI will warn if an event starts within 24 hours with no
+   reminder run recorded.
+2. **One bad record must not stop everything.** One fault spread into a
+   grid-wide cascade. Our CSV import will reject only the bad row with its
+   line number (e.g. "line 14: capacity 'abc' is not a whole number between
+   1 and 500"), load the other rows and report how many were rejected.
+
+## 7. Sources
+1. U.S.-Canada Power System Outage Task Force, *Final Report on the August 14, 2003 Blackout in the United States and Canada: Causes and Recommendations*, 2004, https://www.energy.gov/sites/prod/files/oeprod/DocumentsandMedia/BlackoutFinal-Web.pdf (primary)
+2. K. Poulsen, "Software bug contributed to blackout", SecurityFocus, 2004 (reposted in RISKS Digest 23.18), https://catless.ncl.ac.uk/risks/23/18
+3. Associated Press, "Software bug blamed for blackout alarm failure", 2004, https://www.nbcnews.com/id/wbna4253189
