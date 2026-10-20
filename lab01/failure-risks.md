@@ -1,7 +1,7 @@
 # Failure risks · ITC Club Hub (v0.1, 2026-10-20)
 
-| # | How the project could fail | Chapter 01 topic | Early warning sign | First countermeasure | Owner |
-|---|----------------------------|------------------|--------------------|----------------------|-------|
+| #  | How the project could fail | Chapter 01 topic | Early warning sign | First countermeasure | Owner |
+|----|----------------------------|------------------|--------------------|----------------------|-------|
 | F1 | Two developers implement "capacity" differently (seats vs. registrations) and the rules drift apart. | Essential difficulties (Invisibility) | The same capacity calculation logic appears duplicated across two separate C++ files. | Encapsulate business logic into one dedicated function with unit tests; document rules in project README. | Sov Kenkimseng |
 | F2 | The team spends too much time building complex UI mockups and fails to complete backend C++ core requirements before the deadline. | Scale and communication | Sprint backlog tasks for backend logic remain incomplete while UI design discussions drag on. | Enforce strict scope boundary: UI/Web is modelled only; keep C++ implementation strictly CLI/backend focused. | Sinath Naihouy |
 | F3 | Client requests sudden changes to attendance reporting format mid-semester, causing major code rewrites. | Changing requirements and cost of change | Client feedback during weekly reviews requests new fields not present in initial schema. | Design C++ data models with flexible file parser structures and abstract interfaces early. | Mony Viseth setha |

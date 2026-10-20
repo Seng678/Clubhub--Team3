@@ -3,11 +3,14 @@
 ## Problem
 The problem of fragmented club registration, unorganized event scheduling, and manual attendance tracking affects ITC students, club leaders, and institute administrators; the impact of which is overcrowded event venues, lost participation records, missed notifications, and high administrative overhead in Telegram chat groups. A successful solution would provide a centralized platform for discovering clubs, registering for events with capacity enforcement, and tracking official student involvement.
 
+
 ## Vision
 For ITC students and club organizers who struggle with chaotic event coordination, ITC Club Hub is a centralized management system that simplifies club membership, automates event registration, and tracks attendance records. Unlike ad-hoc Telegram groups and paper sign-up sheets, our product offers real-time capacity management, verified attendance logs, and clear role-based access for students and administrators.
 
+
 ## Today's workaround
 Currently, club leaders rely on public Telegram chat groups and Google Forms for event announcements and sign-ups. Attendance is taken manually on paper or spreadsheet lists, leading to duplicate registrations, venue overbooking, untracked cancellations, and no centralized record for university administration.
+
 
 ## Scope
 - Built in C++ this semester:
