@@ -3,13 +3,13 @@
 ## Files of this lab
 | File | Task | Authors |
 |------|------|---------|
-| lab01/team-charter.md | 1 | <name> |
-| lab01/decisions.md | 1 | <name> |
-| README.md, .gitignore, LICENSE | 2 | <names> |
+| lab01/team-charter.md | 1 | Sinath Naihouy, Mony Viseth Setha, Sov Kenkimseng, Phou Sekang |
+| lab01/decisions.md | 1 | Sinath Naihouy, Mony Viseth Setha, Sov Kenkimseng, Phou Sekang |
+| README.md, .gitignore, LICENSE | 2 | Sinath Naihouy |
 | lab01/failure-case-analysis.md | 3 | Sinath Naihouy (context, timeline), Sov Kenkimseng , Phou Sekang , Mony Viseth Setha (lessons, sources) |
-| lab01/problem-statement.md | 4 | <name> |
-| lab01/stakeholders.md | 4 | <name> |
-| lab01/failure-risks.md | 4 | <name> |
+| lab01/problem-statement.md | 4 | Sinath Naihouy |
+| lab01/stakeholders.md | 4 | Sinath Naihouy |
+| lab01/failure-risks.md | 4 | Sinath Naihouy |
 | CMakeLists.txt, include/clubhub/banner.hpp, src/*.cpp | 5 | Mony Viseth Setha |
 
 Inputs reused from earlier labs: none (first lab).
