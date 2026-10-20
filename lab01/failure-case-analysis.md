@@ -13,3 +13,16 @@ On August 14, 2003, a massive cascading electrical blackout struck the Northeast
 | Aug 14, 2003 - 3:05 p.m. | Additional overloaded FirstEnergy lines sag and trip into trees; control room operators remain unaware due to frozen alarms. |
 | Aug 14, 2003 - 4:10 p.m. | A massive power surge flows through Michigan and Ontario, triggering automated safety breakers across regional grids. |
 | Aug 14, 2003 - 4:13 p.m. | Over 100 power plants shut down automatically to protect equipment, plunging the entire region into a total blackout. |
+
+## 3. What Failed
+The official U.S.–Canada investigation found that the Northeast Blackout of August 14, 2003, resulted from multiple failures rather than a single software bug. FirstEnergy’s inadequate tree trimming allowed transmission lines to contact trees, while a race-condition bug in the General Electric XA/21 alarm-processing system prevented operators from receiving important visual and audible warnings. Combined with insufficient situational awareness, weaknesses in grid monitoring and inadequate support from regional reliability coordinators, operators failed to respond effectively as additional transmission lines tripped. The resulting cascade spread across the interconnected electricity network, causing widespread power outages affecting approximately 50 million people in the United States and Canada.
+
+```mermaid
+flowchart TD
+A["Root cause: Inadequate treetrimming and grid reliabilitymanagement"] --> B["Transmission lines contacttrees and trip offline]
+B --> C["GE XA/21 alarm-processingsoftware fails due to a racecondition"]
+C --> D["Operators lose critical visualand audible warnings"]
+D --> E["Poor situational awareness anddelayed corrective action"]
+E --> F["Additional transmission linesoverload and trip"]
+F --> G["Cascading failures spreadacross interconnected powergrids"]
+G --> H["Impact: Blackout affectingapproximately 50 millionpeople"]
