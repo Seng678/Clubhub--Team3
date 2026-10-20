@@ -28,3 +28,20 @@ flowchart LR
    Setha --- kimseng
    Setha ---  Sekang
    kimseng --- Sekang
+
+## Two practices
+
+1. GitHub Issues as the single source of truth: Replaces scatterd chat arguments with structured traking, reducing conversational paths.
+  New estimated overhead 50min/0.83h/week
+2. Weekly 15-minutes Stand up: Restrcts full-team syncs to a strict, timeboxed interval instead of ad-hoc meeting 
+  New estimate overhead 40 min/ 0.67h /week
+
+## A sixth member in week 11?
+Adding a 6th member in week 11 increases model (b) paths to 12 ($5 \times 4 / 2 + 1$), spiking communication overhead right when the team needs to be coding during Sprint 1; therefore, according to Brooks's law, we would **decline** adding a member so late in the project.
+
+## Reflection: the essential difficulty we expect first
+Our team expects to hit **complexity** first in ITC Club Hub [cite: [Lab-01 · Software Development Challenges](https://gicitc.com/courses/introduction-to-software-engineering/01-SoftwareDevelopmentChallenges/Lab-01.html?continue#challenge-communication-overhead)]. For example, managing overlapping business rules between student registrations, capacities, and cancellation deadlines will quickly tangle our code logic. Over the next four weeks, we will counter this by strictly separating our domain logic into clean C++ classes and enforcing thorough peer code reviews on every pull request.
+-  (signed) Naihouy, 2026-10-20
+-  (signed)Setha, 2026-10-20
+-  (signed) kimseng, 2026-10-20
+-  (signed) Sekang, 2026-10-20
