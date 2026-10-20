@@ -44,4 +44,4 @@ Our team expects to hit **complexity** first in ITC Club Hub [cite: [Lab-01 · S
 -  (signed) Naihouy, 2026-10-20
 -  (signed)Setha, 2026-10-20
 -  (signed) kimseng, 2026-10-20
--  Sekang, 2026-10-20
+-  (signed) Sekang, 2026-10-20
